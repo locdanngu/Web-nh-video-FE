@@ -1,0 +1,119 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.logo_login{
+    text-align:center;
+}
+
+header {
+    background-color: #cccccc;
+}
+
+main {
+    background-color: #dddddd;
+    min-height: 500px;
+    padding: 7.5px 15px;
+    text-align:center;
+}
+
+footer {
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+
+
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px dotted #cccccc;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #009999;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+.btn-box {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.btn-box button {
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-box button:hover {
+    background-color: red;
+    color: white;
+}
+
+.sign_up{
+    position:relative;
+    top:55px;
+    right:125px;
+   
+}
+
+
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer.dark {
+    padding: 0px;
+    background-color: #242526;
+}
+
+footer .left {
+    float: left;
+    width: 25%;
+}
+
+footer.dark .left p {
+    color: #b0b3b8;
+    line-height: 100px;
+}
+
+footer .right {
+    float: left;
+    width: 75%;
+}
+
+footer .right p {
+    color: white;
+    font-size: 13px;
+    padding-top: 30px;
+}
+

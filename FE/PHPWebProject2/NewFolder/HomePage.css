@@ -1,0 +1,98 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://media-exp1.licdn.com/dms/image/C4E12AQHO0-NzzwJodQ/article-inline_image-shrink_1500_2232/0/1520222086640?e=1661990400&v=beta&t=FNS0NoABS-xkXVrrzF-TZ61tdFpo6zar7QumP77tUBM");
+    background-position-y: -15%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #000 solid;
+    align-items: center;
+    text-align: center;
+    background-color: #cccccc;
+}
+
+
+
+main {
+
+    min-height: 600px;
+    padding: 7.5px 15px;
+}
+
+footer {
+    background-color: #cccccc;
+    height: 80px;
+    padding: 15px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.left .login_btn {
+    color: white !important;
+    margin-right: 30px;
+    background: #245dc1;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    font-family: arial,sans-serif;
+    cursor: pointer;
+}
+.left .login_btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.content {
+    position:absolute;
+    top: 200px;
+    left: 1000px;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer.dark {
+    background-color: #242526;
+}
+
+footer .left {
+    float: left;
+    width: 25%;
+}
+
+footer.dark .left p {
+    color: #b0b3b8;
+    line-height: 35px;
+}
+
+footer .right {
+    float: left;
+    width: 75%;
+}
+
+footer .right p {
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+}

@@ -1,0 +1,236 @@
+﻿.heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #000 solid 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.right .logo {
+    text-align: center;
+}
+
+.right .img_logo {
+    width: 100px;
+}
+
+.right .logo_name {
+    color: #000 !important;
+}
+
+.left .avatar {
+    text-align: center;
+}
+
+.left .avatar_user {
+    width: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.btn1 {
+    margin:15px 0px;
+    border: 0px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    padding-top: 5px;
+    background-color: #888888;
+    color: white;
+}
+
+.left_main {
+    margin: 25px;
+}
+
+.storage {
+    height: 80px;
+    width: 170px;
+    border: 0px solid;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+.storage:hover{
+    background-color: #777673;
+    color: white;
+}
+
+.trash:hover{
+    background-color: #777673;
+    color: white;
+}
+
+.trash {
+    height: 80px;
+    width: 170px;
+    border: 0px solid;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+.cloud {
+    height: 80px;
+    width: 170px;
+    border: 0px solid;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+hr {
+    position:fixed;
+    width: 1px;
+    height: 1000px;
+    background-color: black;
+    margin-left:220px;
+    top:110px;
+    
+}
+
+.add {
+    height:80px;
+    width:170px;
+    border: 2px solid;
+    cursor: pointer;
+    font-size:24px;
+}
+
+.add:hover{
+    background-color: #777673;
+    color: white;
+    border: 2px solid black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 96px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.avatar:hover .dropdown-content {
+    display: block;
+}
+
+
+
+map{
+    font-size:24px;
+}
+
+footer {
+    background-color: #cccccc;
+    height: 50px;
+    padding: 15px;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer.dark {
+    padding: 0px;
+    background-color: #242526;
+}
+
+footer .left {
+    float: left;
+    width: 25%;
+}
+
+footer.dark .left p {
+    color: #b0b3b8;
+    line-height: 10px;
+}
+
+footer .right {
+    float: left;
+    width: 75%;
+}
+
+footer .right p {
+    color: white;
+    font-size: 13px;
+
+}
+
+.right_main{
+    position:fixed;
+    top:170px;
+    left:600px;
+}
+
+.name {
+    position: fixed;
+    top: 190px;
+    left: 800px;
+}
+
+.email {
+    position: fixed;
+    top: 230px;
+    left: 800px;
+}
+
+.pass1 {
+    position: fixed;
+    top: 271px;
+    left: 800px;
+}
+
+.pass2 {
+    position: fixed;
+    top: 313px;
+    left: 800px;
+}
+
+.datebirth {
+    position: fixed;
+    top: 360px;
+    left: 800px;
+}
+
+.sdt {
+    position: fixed;
+    top: 403px;
+    left: 800px;
+}
+
+
+.yes {
+    position: fixed;
+    height: 60px;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    top: 500px;
+    left: 900px;
+}
+
+.no {
+    position: fixed;
+    height: 60px;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 20px;
+    top: 500px;
+    left: 1020px;
+}

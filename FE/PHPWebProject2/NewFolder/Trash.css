@@ -1,0 +1,261 @@
+﻿.heading {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #000 solid 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.right .logo {
+    text-align: center;
+}
+
+.right .img_logo {
+    width: 100px;
+}
+
+.right .logo_name {
+    color: #000 !important;
+}
+
+.left .avatar {
+    text-align: center;
+}
+
+.left .avatar_user {
+    width: 100px;
+    display: inline-block;
+    border-radius:50%;
+}
+
+.center {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.find {
+    text-align: left;
+    padding: 15px 100px 15px 4px;
+}
+
+.findbtn {
+    padding: 15px 20px;
+}
+
+.btn1 {
+    margin:15px 0px;
+    border: 0px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    padding-top: 5px;
+    background-color: #888888;
+    color: white;
+}
+
+.left_main {
+    margin: 25px;
+}
+
+.storage {
+    height: 80px;
+    width: 170px;
+    border: 0px solid;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+.storage:hover{
+    background-color: #777673;
+    color: white;
+}
+
+.trash:hover{
+    background-color: #777673;
+    color: white;
+}
+
+.trash {
+    height: 80px;
+    width: 170px;
+    border: 0px solid;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+.cloud {
+    height: 80px;
+    width: 170px;
+    border: 0px solid;
+    margin-top: 10px;
+    background-color: white;
+    text-align: left;
+    font-size: 24px;
+}
+
+hr {
+    position:fixed;
+    width: 1px;
+    height: 1000px;
+    background-color: black;
+    margin-left:220px;
+    top:110px;
+    
+}
+
+.add {
+    height:80px;
+    width:170px;
+    border: 2px solid;
+    cursor: pointer;
+    font-size:24px;
+}
+
+.add:hover{
+    background-color: #777673;
+    color: white;
+    border: 2px solid black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 96px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.avatar:hover .dropdown-content {
+    display: block;
+}
+
+
+
+map{
+    font-size:24px;
+}
+
+footer {
+    background-color: #cccccc;
+    height: 50px;
+    padding: 15px;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+footer.dark {
+    padding: 0px;
+    background-color: #242526;
+}
+
+footer .left {
+    float: left;
+    width: 25%;
+}
+
+footer.dark .left p {
+    color: #b0b3b8;
+    line-height: 10px;
+}
+
+footer .right {
+    float: left;
+    width: 75%;
+}
+
+footer .right p {
+    color: white;
+    font-size: 13px;
+
+}
+
+.table {
+    position: fixed;
+    top: 150px;
+    left: 300px;
+    width: 1100px;
+    background-color: aqua;
+}
+
+.bang {
+    position: fixed;
+    top: 175px;
+    left: 300px;
+    width: 1100px;
+    height: 300px;
+    font-size: 20px;
+}
+
+td {
+    height: 80px;
+    width: 230px;
+    text-align: center;
+}
+
+.a1 {
+    width: 222px;
+}
+
+
+
+
+
+th {
+    max-width: 40px;
+}
+
+.pagination {
+    position: fixed;
+    top: 650px;
+    left: 700px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    border: 1px solid black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    }
+
+.btn9 {
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+
+.btn9:hover {
+    background-color: black;
+    color: white;
+}
+
+
